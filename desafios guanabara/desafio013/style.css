@@ -8,7 +8,7 @@
     padding: 0px;
 }
 body {
-    background-color: #303030;
+    background-color: #320894;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -22,31 +22,48 @@ header {
 main {
     font-size: 18px;
     max-width: 1000px;
-    text-align: center;
-    margin: center;
+    margin: auto;
+
 }
 section.imagem {
     height: 460px;
     box-shadow: inset 6px 6px 6px 2px rgba(0, 0, 0, 0.651);
     background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
 }
 section#img01 {
     background-image: url('imagens/carro01.jpg');
-    background-size: cover;
     background-position: center center;
 
 }
 section#img02 {
     background-image: url('imagens/carro02.jpg');
+}
+section#img03 {
+    background-image: url('imagens/carro03.jpg');
     background-size: cover;
+    background-position: center center;
+}
+section#img04 {
+    background-image: url('imagens/carro03SUB.jpg');
+    background-size: cover;
+    background-position: left top;
+}
+section#img05 {
+    background-image: url('imagens/carro05.jpg');
+    background-size: cover;
+    background-position: center center;
 }
 .titulo02 {
     color: white;
     padding-left: 13px;
     padding-top: 20px;
+    justify-content: center;
 }
 p {
     text-indent: 30px;
     line-height: 28px;
     margin: 16px;
+    
 }
