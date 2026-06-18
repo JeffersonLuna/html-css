@@ -11,7 +11,7 @@
         table {
             width: 600px;
         }
-        td {
+        td, th {
             border: 1px solid black;
             padding: 10px;
         }
@@ -23,14 +23,17 @@
 <body>
     <h1>Desafio de Tabelas p3</h1>
     <table>
+        <thead>
         <tr class="titulo">
-            <td>Grupo</td>
-            <td>Nomes</td>
-            <td colspan="3">Filmes</td>
+            <th scope="col">Grupo</th>
+            <th scope="col">Nomes</th>
+            <th scope="col" colspan="3">Filmes</th>
             
         </tr>
+        </thead>
+        <tbody>
         <tr>
-            <td rowspan="3" class="titulo">Mulheres</td>
+            <th scope="rowgroup" rowspan="3" class="titulo">Mulheres</th>
             <td>Ana Beatriz Santos</td>
             <td>Alien</td>
             <td>Rambo</td>
@@ -49,7 +52,7 @@
             <td>Big hero</td>
         </tr>
         <tr>
-            <td rowspan="3" class="titulo">Homens</td>
+            <th scope="rowgroup" rowspan="3" class="titulo">Homens</th>
             <td>Bruno Mendonça</td>
             <td>Intocáveis</td>
             <td>amnésia</td>
@@ -68,6 +71,7 @@
             <td>Táxi Driver</td>
             <td>Toy Story</td>
         </tr>
+        </tbody>
     </table>
 </body>
 </html>
