@@ -7,17 +7,41 @@
 </head>
 <body>
     <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php">
     <p>
         <label for="iest">Estado</label>
         <select name="estado" id="iest">
-            <option value="RJ">Rio de janeiro</option>
-            <option value="SP">São paulo</option>
-            <option value="MG">Minas gerais</option>
-            <option value="RS">Rio grande do Sul</option>
-            <option value="PE">Pernambuco</option>
+            <optgroup label="Região Sudeste">
+                <option value="RJ">Rio de janeiro</option>
+                <option value="SP">São paulo</option>
+                <option value="MG">Minas gerais</option>
+            </optgroup>
+
+            <optgroup label="Região Nordeste">
+                <option value="RS">Rio grande do Norte</option>
+                <option value="PE">Pernambuco</option>
+            </optgroup>
         </select>
     </p>
-    <input type="submit" value="Enviar">
-    <input type="reset" value="Limpar">
+    <p>
+        <label for="iprof">Profissão</label>
+        <input type="text" name="prof" id="iprof" list="listaprof">
+        <datalist id="listaprof">
+            <option>Desenvolvedor</option>
+            <option>Cozinheiro</option>
+            <option>Veterinária</option>
+            <option>Operador Loja</option>
+        </datalist>
+    </p> 
+    <p> 
+        <label for="imsg">Mensagem:</label>
+        <br>
+        <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+    </p>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+    </form>
 </body>
 </html>
