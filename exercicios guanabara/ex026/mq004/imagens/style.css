@@ -1,0 +1,16 @@
+/* Versão Mobile First*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.3em;
+    box-sizing: border-box;
+}
+body, html {
+    width: 100vw;
+    height: 100vh;
+}
+body {
+    background-color: black;
+    background-image: url('../imagens/back-phone.jpg');
+}
