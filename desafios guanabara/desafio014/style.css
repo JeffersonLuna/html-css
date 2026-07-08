@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: rgb(134, 134, 134);
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 25px;
+}
+nav {
+    background-color: rgb(134, 134, 134);
+    padding-bottom: 9px;
+}
+a {
+    text-decoration: none;
+    background-color: rgb(82, 82, 82);
+    padding: 10px;
+    color: white;
+    border-radius: 6px;
+}
+a:hover {
+    background-color:rgb(170, 170, 170);
+}
+main {
+    padding-top: 18px;
+    max-width: 800px;
+    margin: auto;
+    font-size: 17px; 
+}
+main p {
+    text-indent: 25px;
+}
+@media screen and (min-width: 400px) and (max-width: 768px) {
+    body {
+        background-color: rgb(177, 177, 177);
+    }
+    main {
+        padding: 30px;
+        background-color: white;
+        border-radius: 10px;
+        margin: 14px;
+    }
+}
