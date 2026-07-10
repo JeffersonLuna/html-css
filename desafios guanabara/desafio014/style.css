@@ -1,24 +1,33 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
     background-color: rgb(134, 134, 134);
     text-align: center;
     padding-top: 12px;
-    padding-bottom: 25px;
+    padding-bottom: 2px;
 }
-nav {
-    background-color: rgb(134, 134, 134);
-    padding-bottom: 9px;
+nav#itens {
+    display: block;
+    background-color:rgb(134, 134, 134);
+}
+nav ul li {
+    display: inline-block;
+}
+span#burguer {
+    display: none;
 }
 a {
+    text-align: center;
     text-decoration: none;
     background-color: rgb(82, 82, 82);
     padding: 10px;
+    margin-top: 2px;
     color: white;
-    border-radius: 6px;
+    display: block;
 }
 a:hover {
     background-color:rgb(170, 170, 170);
@@ -30,7 +39,8 @@ main {
     font-size: 17px; 
 }
 main p {
-    text-indent: 25px;
+    text-indent: 20px;
+    text-align: justify;
 }
 @media screen and (max-width: 768px) {
         body {
@@ -42,9 +52,26 @@ main p {
         border-radius: 10px;
         margin: 14px;
     }
+    span#burguer {
+        background-color: rgb(56, 56, 56);
+        display: block;
+        padding: 10px;
+        color: white;
+        cursor: pointer;
+    }
+    span#burguer:hover {
+        background-color: rgb(219, 219, 219);
+        color: black;
+    }
+    nav ul li {
+    display: block;
+}
+    nav#itens {
+        display: none;
+    }
 
 }
-@media screen and (min-width:768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
     body {
         background-color: rgb(177, 177, 177);
     }
