@@ -32,7 +32,19 @@ main {
 main p {
     text-indent: 25px;
 }
-@media screen and (min-width: 300px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
+        body {
+        background-color: rgb(177, 177, 177);
+    }
+    main {
+        padding: 30px;
+        background-color: white;
+        border-radius: 10px;
+        margin: 14px;
+    }
+
+}
+@media screen and (min-width:768px) and (max-width: 992px) {
     body {
         background-color: rgb(177, 177, 177);
     }
@@ -41,5 +53,7 @@ main p {
         background-color: white;
         border-radius: 10px;
         margin: 14px;
+        margin: auto;
+        width: 680px;
     }
 }
