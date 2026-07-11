@@ -1,0 +1,71 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: linear-gradient(to bottom, rgb(90, 4, 160),rgb(57, 204, 214));
+    height: 100vh;
+}
+div.img {
+    background-image: url('imagens/pexels-rebornfilmes-27669641.jpg');
+    height: 22vh;
+    width: 60vw;
+    background-size: cover;
+    background-position: center bottom;
+    left: 50%;
+    top: 30.6%;
+    border-radius: 30px 30px 0px 0px;
+}
+div {
+    background-color: white;
+    color:rgb(0, 0, 0);
+    width: 60vw;
+    height: 32vh;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%, -50%);
+    border-radius: 0px 0px 30px 30px;
+    padding: 16px;
+    padding-bottom: 60px;
+}
+div h1 {
+    text-align: center;
+    padding-bottom: 17px;
+}
+p.bem {
+    padding-bottom: 20px;
+    font-size: 17px;
+}
+input.login{
+    padding: 12px;
+    background-color: #94CFCD;
+    border-radius: 10px;
+    width: 45vw;
+}
+
+input.entrar, input.senha {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    width: 60vw;
+    padding: 14px;
+    border-radius: 10px;
+    background-color: #53AAA7;
+    color: white;
+    font-size: 16px;
+}
+input.senha {
+    border: 1px solid #3d7c7a;
+    color: #3d7c7a;
+    background-color: white;
+}
+span {
+    background-color: #5F2C82;
+    width: 58vw;
+    padding: 3px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
