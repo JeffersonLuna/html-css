@@ -69,6 +69,7 @@ span {
     padding: 3px;
     border-radius: 10px;
     margin-bottom: 8px;
+    color: white;
 }
 input.senha:hover {
     background-color: #5fc5c28e;
