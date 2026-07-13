@@ -10,7 +10,7 @@ body {
 }
 div.img {
     background-image: url('imagens/pexels-rebornfilmes-27669641.jpg');
-    height: 22vh;
+    height: 37vh;
     width: 60vw;
     background-size: cover;
     background-position: center bottom;
@@ -22,7 +22,7 @@ div {
     background-color: white;
     color:rgb(0, 0, 0);
     width: 60vw;
-    height: 32vh;
+    height: 45vh;
     margin: auto;
     position: absolute;
     left: 50%;
@@ -68,4 +68,10 @@ span {
     padding: 3px;
     border-radius: 10px;
     margin-bottom: 8px;
+}
+input.senha:hover {
+    background-color: #5fc5c28e;
+}
+input.entrar:hover {
+    background-color: #2e6361;
 }
