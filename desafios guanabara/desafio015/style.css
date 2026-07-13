@@ -13,6 +13,7 @@ div.img {
     min-height: 37vh;
     width: 350px;
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center bottom;
     left: 50%;
     top: 30.6%;
@@ -44,7 +45,7 @@ input.login{
     padding: 12px;
     background-color: #94CFCD;
     border-radius: 10px;
-    width:220px;
+    width:150px;
 }
 
 input.entrar, input.senha {
