@@ -22,8 +22,8 @@ div.img {
 div {
     background-color: white;
     color:rgb(0, 0, 0);
-    max-width: 300px;
-    max-height: 340px;
+    max-width: 250px;
+    max-height: 350px;
     margin: auto;
     position: absolute;
     left: 50%;
@@ -45,13 +45,13 @@ input.login{
     padding: 12px;
     background-color: #94CFCD;
     border-radius: 10px;
-    width:220px;
+    width:175px;
 }
 
 input.entrar, input.senha {
     margin-top: 6px;
     margin-bottom: 6px;
-    width: 300px;
+    width: 257px;
     padding: 14px;
     border-radius: 10px;
     background-color: #53AAA7;
@@ -65,7 +65,7 @@ input.senha {
 }
 span {
     background-color: #5F2C82;
-    width: 295px;
+    width: 250px;
     padding: 3px;
     border-radius: 10px;
     margin-bottom: 8px;
