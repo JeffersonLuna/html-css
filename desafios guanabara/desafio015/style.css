@@ -5,7 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body {
-    background-image: linear-gradient(to bottom, rgb(90, 4, 160),rgb(57, 204, 214));
+    background-image: linear-gradient(to bottom, rgb(90, 4, 160),rgb(40, 141, 148));
     height: 100vh;
 }
 div.img {
@@ -22,6 +22,7 @@ div.img {
 div {
     background-color: white;
     color:rgb(0, 0, 0);
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.788);
     max-width: 250px;
     max-height: 350px;
     margin: auto;
@@ -31,14 +32,14 @@ div {
     transform: translate(-50%, -50%);
     border-radius: 0px 0px 30px 30px;
     padding: 16px;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
 }
 div h1 {
     text-align: center;
-    padding-bottom: 17px;
+    padding-bottom: 12px;
 }
 p.bem {
-    padding-bottom: 20px;
+    padding-bottom: 7px;
     font-size: 17px;
 }
 input.login{
@@ -47,6 +48,14 @@ input.login{
     border-radius: 10px;
     width:175px;
 }
+input.entrar {
+    color: white;
+    background-color: #53AAA7;
+}
+input.senha {
+    color: #2e6361;
+    background-color: white;
+}
 
 input.entrar, input.senha {
     margin-top: 6px;
@@ -54,14 +63,8 @@ input.entrar, input.senha {
     width: 257px;
     padding: 14px;
     border-radius: 10px;
-    background-color: #53AAA7;
-    color: white;
     font-size: 16px;
-}
-input.senha {
     border: 1px solid #3d7c7a;
-    color: #3d7c7a;
-    background-color: white;
 }
 span {
     background-color: #5F2C82;
@@ -72,8 +75,47 @@ span {
     color: white;
 }
 input.senha:hover {
-    background-color: #5fc5c28e;
+    background-color: #6CD3CF;
 }
 input.entrar:hover {
     background-color: #2e6361;
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    div {
+    min-width: 495px;
+    max-height: 230px;
+    left: 63%;
+    top: 50%;
+    border-radius: 0px 30px 30px 0px;
+    padding: 16px;
+    padding-bottom: 60px;
+    }
+
+    input.entrar, input.senha {
+    margin-top: 0px;
+    margin-bottom: 3px;
+    width: 500px;
+    height: 45px;
+    font-size: 16px;
+}
+    input.login {
+    height: 17px;
+    padding: 11px;
+    background-color: #94CFCD;
+    border-radius: 10px;
+    width:417px;
+}
+    span {
+        margin-bottom: 4px;
+        height: 39px;
+        width: 490px;
+}
+    div.img {
+        min-height: 230px;
+        min-width: 200px;
+        max-width: 253px;
+        left: 22%;
+        top: 50%;
+        border-radius: 30px 0px 0px 30px;
+}
 }
