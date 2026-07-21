@@ -27,10 +27,10 @@ div.principal {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
     border-radius: 30px 30px 30px 30px;
     padding-bottom: 40px;
     display: block;
+    transform: translate(-50%, -50%);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
@@ -182,6 +182,9 @@ input.entrar:hover {
         max-width: 447px;
         height: 45px;
         font-size: 16px;
+    }
+    p.bem {
+        font-size: 19px;
     }
     }
 }
