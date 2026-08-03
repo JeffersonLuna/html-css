@@ -32,6 +32,8 @@ a {
 a:hover {
     background-color: rgb(136, 136, 136);
     color: black;
+    transition-duration: 0.5s;
+
 }
 main {
     box-shadow: 2px 2px 2px black;
@@ -43,8 +45,20 @@ main {
 @media screen and (max-width: 600px){
     header {
         text-align: center;
+        justify-content: center;
+    }
+    h1 {
+        margin: 0px;
     }
     nav {
-       flex-direction: column; 
+        flex-flow: column nowrap;
+        padding-top: 20px;
+        margin: 0px;
+    }
+    a {
+        margin: 0px;
+        margin-bottom: 8px;
+        width: 500px;
+        height: 23px;
     }
 }
