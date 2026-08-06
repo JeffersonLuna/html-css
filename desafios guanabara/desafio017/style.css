@@ -4,31 +4,45 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 header {
-    margin: 10px;
-    margin-bottom: 40px;
+    padding: 20px;
 }
-h1 {
-    margin-bottom: 12px;
+p, h1, h2 {
+    margin-bottom: 10px;
+    text-align: justify;
+    text-align: center;
 }
-main {
-    background-color: lightgray;
-    padding: 15px;
+section.flex-content {
+    padding: 20px;
     display: flex;
     flex-flow: column wrap;
-    justify-content: ;
+    background-color: rgb(196, 196, 196);
 }
-div.texto {
-    flex-BASSISSS???
-    width: 55vw;
+article.media-text {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-between;
+    
 }
-div.img01 {
-    background-image: url(pexels-amine-kubranur-cakiroglu-689611212-38845411.png);
-    width: 300px;
-    height: 400px;
+div.text {
+    flex: 1 1 500px;
 }
-h2 {
-    margin-bottom: 12px;
+div.media {
+    flex: 1 0 580px;
 }
-p {
-    margin-bottom: 100px;
+article.text-media {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 0 0;
+    justify-content: space-between;
+}
+img {
+    display: block;
+    margin: auto;
+    padding-bottom: 10px;
+}
+iframe {
+    display: block;
+    margin: auto;
+    padding-left: 20px;
+    width: 90%;
 }
